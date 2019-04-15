@@ -71,7 +71,7 @@ choco install androidstudio --yes
 #
 # Android Studio SDK 26.1.1
 # 
-choco install android-sdk
+choco install android-sdk --yes
 
 # File Management
 choco install beyondcompare --yes
