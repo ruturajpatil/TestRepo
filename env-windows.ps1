@@ -41,6 +41,38 @@ git config --global alias.standup "log --since yesterday --author $(git config u
 git config --global alias.everything "! git pull && git submodule update --init --recursive"
 git config --global alias.aliases "config --get-regexp alias"
 
+
+#
+# VS Code
+#
+
+choco install vscode --yes
+Update-Environment-Path
+code --install-extension vscode-icons
+code --install-extension vscode-ember-frost
+code --install-extension vscode-gitlens
+
+# PowerShell support
+code --install-extension vscode-powershell
+
+# CSharp support
+code --install-extension vscode-csharp
+
+#
+# Eclipse
+# 
+choco install eclipse --yes
+
+#
+# Android Studio
+# 
+choco install androidstudio --yes
+
+#
+# Android Studio SDK 26.1.1
+# 
+choco install android-sdk
+
 # File Management
 choco install beyondcompare --yes
 choco install 7zip --yes
