@@ -59,6 +59,11 @@ code --install-extension vscode-powershell
 code --install-extension vscode-csharp
 
 #
+# Visual Studio 2019 Community Edition
+#
+choco install visualstudio2017community --yes
+
+#
 # Eclipse
 # 
 choco install eclipse --yes
